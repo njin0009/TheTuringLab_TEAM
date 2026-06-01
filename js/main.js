@@ -173,33 +173,3 @@ journeyButtons.forEach((button) => {
 });
 
 updateJourneyLikes();
-
-const roadmapSaveKey = "pathwayiq-saved-roadmap-features";
-const savedRoadmapFeatures = new Set(JSON.parse(localStorage.getItem(roadmapSaveKey) || "[]"));
-const roadmapSaveButtons = document.querySelectorAll(".roadmap-save");
-
-const updateRoadmapSaves = () => {
-  roadmapSaveButtons.forEach((button) => {
-    const isSaved = savedRoadmapFeatures.has(button.dataset.saveFeature);
-    button.textContent = isSaved ? "♥" : "♡";
-    button.classList.toggle("is-saved", isSaved);
-    button.setAttribute("aria-pressed", String(isSaved));
-  });
-};
-
-roadmapSaveButtons.forEach((button) => {
-  button.addEventListener("click", () => {
-    const feature = button.dataset.saveFeature;
-
-    if (savedRoadmapFeatures.has(feature)) {
-      savedRoadmapFeatures.delete(feature);
-    } else {
-      savedRoadmapFeatures.add(feature);
-    }
-
-    localStorage.setItem(roadmapSaveKey, JSON.stringify([...savedRoadmapFeatures]));
-    updateRoadmapSaves();
-  });
-});
-
-updateRoadmapSaves();
