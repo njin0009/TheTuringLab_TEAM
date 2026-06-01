@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420">
+  <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#5138c7"/><stop offset="1" stop-color="#a38cff"/></linearGradient></defs>
+  <rect width="640" height="420" fill="url(#bg)"/>
+  <circle cx="560" cy="46" r="120" fill="none" stroke="#fff" opacity=".18"/>
+  <rect x="70" y="66" width="500" height="288" rx="26" fill="#fff" opacity=".96"/>
+  <text x="108" y="118" font-family="Arial" font-size="25" font-weight="700" fill="#24184f">Explore careers</text>
+  <rect x="108" y="148" width="390" height="40" rx="20" fill="#f0edff"/>
+  <circle cx="474" cy="168" r="9" fill="none" stroke="#654ae8" stroke-width="4"/>
+  <path d="m481 175 12 12" stroke="#654ae8" stroke-width="4" stroke-linecap="round"/>
+  <g font-family="Arial" font-size="15" font-weight="700" fill="#5138c7">
+    <rect x="108" y="214" width="112" height="38" rx="19" fill="#e9e4ff"/><text x="132" y="238">AI risk</text>
+    <rect x="232" y="214" width="112" height="38" rx="19" fill="#e9e4ff"/><text x="258" y="238">Salary</text>
+    <rect x="356" y="214" width="112" height="38" rx="19" fill="#e9e4ff"/><text x="383" y="238">Style</text>
+    <rect x="108" y="266" width="136" height="38" rx="19" fill="#ffdfe5"/><text x="133" y="290" fill="#b6425a">Pathway</text>
+  </g>
+  <path d="M508 221h25M508 238h25M508 255h25" stroke="#e27286" stroke-width="8" stroke-linecap="round"/>
+</svg>

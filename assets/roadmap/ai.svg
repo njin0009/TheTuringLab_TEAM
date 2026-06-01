@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420">
+  <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#3e2a9e"/><stop offset="1" stop-color="#d285c7"/></linearGradient></defs>
+  <rect width="640" height="420" fill="url(#bg)"/>
+  <circle cx="74" cy="74" r="120" fill="none" stroke="#fff" opacity=".15"/>
+  <rect x="88" y="62" width="464" height="300" rx="28" fill="#fff" opacity=".97"/>
+  <circle cx="182" cy="163" r="48" fill="#ebe5ff"/>
+  <circle cx="182" cy="149" r="17" fill="#785be1"/>
+  <path d="M145 201c8-27 66-27 74 0" fill="#785be1"/>
+  <text x="254" y="128" font-family="Arial" font-size="15" font-weight="700" fill="#805fc9">YOUR PATHWAY</text>
+  <text x="254" y="169" font-family="Arial" font-size="26" font-weight="700" fill="#312054">Personalised</text>
+  <text x="254" y="201" font-family="Arial" font-size="26" font-weight="700" fill="#312054">career guidance</text>
+  <g stroke="#d6cdf8" stroke-width="6" stroke-linecap="round">
+    <path d="M146 257h120"/><path d="M146 286h202"/><path d="M146 315h158"/>
+  </g>
+  <circle cx="459" cy="285" r="49" fill="#f2e8ff"/>
+  <path d="m438 285 15 15 30-36" fill="none" stroke="#7655de" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
